@@ -1,0 +1,424 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('/assets/wallpaperbetter.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    user-select: none;
+}
+
+.container-auth {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container-auth h1, .container-auth h2, .container-auth h3, .container-auth p {
+    text-align: center;
+}
+
+.container-auth form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 10 auto; 
+    width: 95%; 
+}
+
+.container-auth label {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.container-auth input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #7b6666;
+    border-radius: 5px;
+    font-size: auto;
+}
+
+.container-auth .button {
+    display: inline-block;
+    margin: 20px 5px 0;   
+    width: auto;          
+    min-width: 120px;     
+    padding: 12px;
+    font-size: 18px;
+}
+
+.container-home {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container-home input {
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #7b6666;
+    border-radius: 5px;
+    font-size: auto;
+}
+.container-home h3, .container-home p {
+    line-height: 1.5;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #007bff;
+    color: white !important;
+    border-radius: 5px;
+}
+.header-link {
+    color: white !important;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.header-link:hover {
+    text-decoration: underline;
+}
+.autogo-container {
+    display: flex;
+    align-items: center;
+}
+
+.autogo-text {
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+.nav-links a {
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.filters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.filter {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.car-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.car-card {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.car-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.car-model {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.car-details {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+    line-height: 1.6;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.reserva-form {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.form-row {
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.form-row div {
+    width: 48%;
+}
+
+.form-row label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-row input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.resumen {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+
+.resumen h4 {
+    margin-top: 0;
+}
+
+/*-------*/
+/*Tarjeta*/
+/*'''''''*/
+.pago-container {
+    max-width: 400px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.pago-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+.pago-container > p {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.tarjeta-section {
+    background: #f7f7f7;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.tarjeta-section img {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+}
+
+.tarjeta-section h3 {
+    margin-bottom: 10px;
+}
+
+.tarjeta-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.tarjeta-info div {
+    width: 48%;
+}
+
+.tarjeta-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.checkbox-option {
+    margin-top: 10px;
+}
+
+.checkbox-option label {
+    margin-left: 5px;
+}
+
+.total-pago {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.admin-table th, .admin-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+.admin-table th {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+}
+
+.admin-table td img {
+    width: 60px;
+    height: auto;
+    border-radius: 5px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.btn-edit, .btn-delete {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.btn-edit {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-edit:hover {
+    background-color: #218838;
+}
+
+.btn-delete {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-delete:hover {
+    background-color: #c82333;
+}
+.report-cards {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.report-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 30%;
+    min-height: 150px;
+}
+
+.icon-placeholder {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.report-card h4 {
+    margin: 10px 0;
+    color: #007bff;
+}
+
+.report-card p {
+    margin: 5px 0;
+    line-height: 1.5;
+}
+
+.charts-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.chart-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 49%;
+    min-height: 200px;
+}
+
+.chart-placeholder {
+    width: 65%;
+    height: auto;
+    border-radius: 5px;
+}
