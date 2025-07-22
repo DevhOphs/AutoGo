@@ -13,13 +13,15 @@
         </header>
         <main>
             <h2>Iniciar Sesión</h2>
-            <label for="email">Correo electrónico</label>
-            <input type="email" id="email" name="email" placeholder="tu@correo.com">
-            
-            <label for="password">Contraseña</label>
-            <input type="password" id="password" name="password" placeholder="Tu contraseña">
-            
-            <button class="button" onclick="validateLogin()">Iniciar sesión</button>
+            <form method="POST" action="procesar_login.php" onsubmit="return validateLogin()">
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email" placeholder="tu@correo.com">
+                
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" name="password" placeholder="Tu contraseña">
+                
+                <button type="submit" class="button">Iniciar sesión</button>
+            </form>
             <p>O</p>
             <p><a href="register.php">¿No tienes cuenta? Registrarse</a></p>
         </main>

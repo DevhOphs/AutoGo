@@ -15,6 +15,7 @@
             </div>
             <div class="nav-links">
                 <a href="home.php">Inicio</a>
+                <a href="agregar_vehiculo.php" class="button">Agregar Vehículo</a>
                 <a href="../index.html">Cerrar Sesión</a>
             </div>
         </div>
@@ -40,7 +41,7 @@
                     <td>ABC-1234</td>
                     <td>Disponible</td>
                     <td>
-                        <button class="btn-edit">Editar</button>
+                        <a href="inventario_edit.php?id=1" class="btn-edit">Editar</a>
                         <button class="btn-delete">Eliminar</button>
                     </td>
                 </tr>
@@ -52,7 +53,7 @@
                     <td>DEF-5678</td>
                     <td>Alquilado</td>
                     <td>
-                        <button class="btn-edit">Editar</button>
+                        <a href="inventario_edit.php?id=2" class="btn-edit">Editar</a>
                         <button class="btn-delete">Eliminar</button>
                     </td>
                 </tr>
@@ -64,7 +65,7 @@
                     <td>GHI-9012</td>
                     <td>Mantenimiento</td>
                     <td>
-                        <button class="btn-edit">Editar</button>
+                        <a href="inventario_edit.php?id=3" class="btn-edit">Editar</a>
                         <button class="btn-delete">Eliminar</button>
                     </td>
                 </tr>
@@ -76,7 +77,7 @@
                     <td>JKL-3456</td>
                     <td>Disponible</td>
                     <td>
-                        <button class="btn-edit">Editar</button>
+                        <a href="inventario_edit.php?id=4" class="btn-edit">Editar</a>
                         <button class="btn-delete">Eliminar</button>
                     </td>
                 </tr>

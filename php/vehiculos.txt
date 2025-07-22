@@ -1,0 +1,1 @@
+RAV,Suzuki,20,2002,manual,gasolina,../assets/vehiculos/car-icon.png

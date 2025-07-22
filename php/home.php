@@ -66,28 +66,28 @@
                 <div class="car-model">Toyota RAV4 SUV</div>
                 <div class="car-details">2024 - Automático - Gasolina</div>
                 <div class="car-details">$50/día</div>
-                <button class="button" onclick="location.href='reserva.php'">Reservar</button>
+                <button class="button" onclick="location.href='reserva.php?car_id=1&model=Toyota%20RAV4%20SUV&year=2024&transmission=Automático&fuel=Gasolina&price=50'">Reservar</button>
             </div>
             <div class="car-card">
                 <img src="/assets/BMWS3.png" alt="BMW Serie 3 Sedán">
                 <div class="car-model">BMW Serie 3 Sedán</div>
                 <div class="car-details">2023 - Automático - Gasolina</div>
                 <div class="car-details">$150/día</div>
-                <button class="button" onclick="location.href='reserva.php'">Reservar</button>
+                <button class="button" onclick="location.href='reserva.php?car_id=2&model=BMW%20Serie%203%20Sedán&year=2023&transmission=Automático&fuel=Gasolina&price=150'">Reservar</button>
             </div>
             <div class="car-card">
                 <img src="/assets/fordmustang.png" alt="Ford Mustang Deportivo">
                 <div class="car-model">Ford Mustang Deportivo</div>
                 <div class="car-details">2022 - Manual - Gasolina</div>
                 <div class="car-details">$200/día</div>
-                <button class="button" onclick="location.href='reserva.php'">Reservar</button>
+                <button class="button" onclick="location.href='reserva.php?car_id=3&model=Ford%20Mustang%20Deportivo&year=2022&transmission=Manual&fuel=Gasolina&price=200'">Reservar</button>
             </div>
             <div class="car-card">
                 <img src="/assets/hondaCRV.png" alt="Honda CRV SUV">
                 <div class="car-model">Honda CRV SUV</div>
                 <div class="car-details">2021 - Automático - Híbrido</div>
                 <div class="car-details">$150/día</div>
-                <button class="button" onclick="location.href='reserva.php'">Reservar</button>
+                <button class="button" onclick="location.href='reserva.php?car_id=4&model=Honda%20CRV%20SUV&year=2021&transmission=Automático&fuel=Híbrido&price=150'">Reservar</button>
             </div>
         </div>
     </div>

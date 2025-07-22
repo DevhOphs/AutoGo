@@ -1,6 +1,7 @@
 function isValidEmail(email) {
     return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 }
+
 function validateLogin() {
     const email = document.getElementById('email').value;
     const password = document.getElementById('password').value;
@@ -13,7 +14,7 @@ function validateLogin() {
         alert('Por favor, ingresa un correo electrónico válido.');
         return false;
     }
-    window.location.href = 'home.php';
+    return true; // Permite el envío del formulario
 }
 
 function validateRegister() {
@@ -36,5 +37,5 @@ function validateRegister() {
         alert('Las contraseñas no coinciden.');
         return false;
     }
-    window.location.href = 'login.php';
+    return true; // Permite el envío del formulario
 }
